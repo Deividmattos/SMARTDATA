@@ -4,3 +4,9 @@
                 box-sizing: border-box;
                 font-family: "Comfortaa", serif;
 }
+:root{
+                --bleu-claro:#deebf5;
+                --blue-dark:#c4d9ec;
+                --blue-cian:#EAF1F6;
+                --blue-escuro:#070346;
+}
