@@ -1,34 +1,59 @@
-.topo{
-                background-color: #070346;
-                width: 100%;
-                              
+.container-header {
+  width: 100%;
+  display: flex;
+  background-color: #070346;
 }
-.container-logo{
-                display: flex;
-                justify-content: space-between;
+.container-topo {
+  text-align: center;
 }
-.seccao-topo{
-                width: 100%;
-                max-width: 1440px;
-                margin: 0 auto;
-               
+.container-topo img {
+  width: 40%;
 }
-.logo img{
-                width: 30%;
-            
 
+.top-link {
+  text-align: center;
+  margin: 27px auto;
+  width: 100%;
+  text-transform: uppercase;
 }
-.top-link{
-                text-align: center;
-                margin: 25px auto;
-                width: 100%;
-                text-transform: uppercase;
+.top-link a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
 
+/***************** Responsivo Tablet ************/
+@media (max-width: 768px) {
+  .container-topo {
+    max-width: 300px;
+  }
+  .container-topo img {
+    width:60%;
+  }
+  .container-header {
+    display: flex;
+  }
+  .top-link {
+  }
+  .top-link a {
+    font-size: 11px;
+  }
 }
-.top-link a{
-                text-decoration: none;
-                padding: 20px;
-                color: white;
-                font-size: 20px;
-                font-weight: bold;
-}
+/***************** Responsivo Mobile ************/
+@media (max-width: 420px) {
+                .container-header {
+                  display: flex;
+                  flex-direction: column;
+                }
+                .container-topo{
+                                width: 100%;
+                                margin: 0 auto;
+                }
+                .container-topo img {
+                  width:90%;
+                }
+                .top-link a {
+                  font-size:52%;
+                }
+              }
