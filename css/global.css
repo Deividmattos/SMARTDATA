@@ -11,5 +11,17 @@
                 --blue-escuro:#070346;
                 --rosa-ligth:#f4f6f8;
                 --rosa:#f8f8f8;
+                --white:#fff;
+                --gold:#c4a47c;
                 box-shadow: 0px 0px 20px -3px rgba(224, 220, 220, 0.8);
+}
+.body{
+                position: relative;
+}
+.container-title{
+                max-width: 1240px;
+                margin: 0 auto;
+                text-align: center;
+                padding: 40px;
+                text-transform: uppercase;
 }

@@ -1,0 +1,33 @@
+.rodape {
+  background-color: var(--blue-escuro);
+  text-align: center;
+  color: var(--gold);
+}
+.rodape div {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.seta {
+  position: absolute;
+  right: 1px;
+  bottom: 5px;
+  
+}
+
+@media (max-width: 1440px) {
+  .rodape div p {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .rodape div p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 420px) {
+  .rodape div p {
+    font-size: 10px;
+  }
+}
