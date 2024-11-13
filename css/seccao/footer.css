@@ -8,6 +8,9 @@
   margin: 0 auto;
   padding: 20px;
 }
+.rodape img{
+  width:60px;
+}
 
 .seta {
   position: absolute;

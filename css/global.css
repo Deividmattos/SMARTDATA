@@ -22,6 +22,14 @@
                 max-width: 1240px;
                 margin: 0 auto;
                 text-align: center;
-                padding: 40px;
+                padding: 100px;
                 text-transform: uppercase;
+               
+               
+}
+.container-title h2{
+                font-family: "Montserrat", sans-serif;
+                font-size:32px;
+                color: #282F6F;
+                font-weight: 700;
 }

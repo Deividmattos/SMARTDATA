@@ -1,0 +1,27 @@
+.container{
+                background-color: var(--rosa);
+}
+.secao-projetos{
+                display: flex;
+                width: 100%;
+                max-width: 1240px;
+                margin: 0 auto;
+                padding-bottom: 40px;
+              
+}
+.secao-projetos figure{
+                border-radius: 20px;
+}
+.secao-projetos figure img{
+                width: 630px;
+                padding: 20px;
+                
+}
+.secao-projetos p{
+                line-height: 30px;
+}
+.modelados h3{
+                padding: 20px;
+                font-family: 'Roboto';
+                font-size: 22px;
+}
