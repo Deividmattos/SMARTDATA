@@ -2,16 +2,19 @@
   background-color: var(--blue-escuro);
   text-align: center;
   color: var(--gold);
-}
-.rodape div {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 20px;
-}
-.rodape img{
-  width:60px;
+  height: 140px;
+
 }
 
+
+.rodape img{
+  width:60px;
+
+}
+.rodepe-termos{
+  display: flex;
+  justify-content: space-evenly;
+}
 .seta {
   position: absolute;
   right: 10px;
