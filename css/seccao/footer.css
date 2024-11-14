@@ -1,7 +1,7 @@
 .rodape {
-  background-color: var(--blue-escuro);
+  background-color:rgb(129, 126, 126);
   text-align: center;
-  color: var(--gold);
+  color:white;
   height: 140px;
 
 }
@@ -19,6 +19,7 @@
   position: absolute;
   right: 10px;
   bottom: 100px;
+  
   
 }
 

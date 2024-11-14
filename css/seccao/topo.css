@@ -1,7 +1,7 @@
 .container-header {
   width: 100%;
   display: flex;
-  background-color: #070346;
+  background-color:rgb(129, 126, 126);
 }
 .container-topo {
   text-align: center;
@@ -19,7 +19,7 @@
 .top-link a {
   text-decoration: none;
   padding: 20px;
-  color: white;
+  color:white;
   font-weight: bold;
 }
 
