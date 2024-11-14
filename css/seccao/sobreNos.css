@@ -1,0 +1,17 @@
+.btn-portfolio {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--blue);
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  top: 70%;
+  position: absolute;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow: 0px 2px 40px 15px rgb(0, 255, 0);
+
+}
+.sobre {
+  position: relative;
+}
